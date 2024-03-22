@@ -1,0 +1,56 @@
+body{
+  text-align: center;
+  font-family: Arial;
+  margin: 0;
+  border: 0;
+  background-color: bisque;
+  margin-top: 2em;
+}
+
+.container{
+  width: 60%;
+  margin: auto;
+  background-color: rgb(9, 44, 74);
+  padding: .6em 3em;
+}
+
+h1{
+  font-size: 4em;
+  margin-top: 1em;
+  color: rgb(115, 201, 213);
+}
+
+h2{
+  font-size: 6em;
+  margin-top: 0.2em;
+  color: white;
+}
+
+button{
+  display:flex;
+  margin: auto;
+  color: bisque; 
+  border: none;
+  padding: 0.5em;
+  font-size: 1.5em;
+  margin-bottom: 0.4em;
+  border-radius: .5em;
+}
+
+.increment-btn{
+  background-color: darkred;  
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.save-btn{
+  background-color: rgb(23, 139, 62);
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.saved-el{
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(115, 201, 213);
+}
